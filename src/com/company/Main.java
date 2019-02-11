@@ -57,14 +57,14 @@ public class Main {
     public static void displayChart() {
         int p = 0;
         for (int num = 1; num<= 4; num+=1){
-         System.out.println(num);
-        for (int m = 0; m <= 9; m+=1){
-            p = num * m;
-            System.out.print("\t");
-            System.out.print(p);
+            System.out.println(num);
+            for (int m = 0; m <= 9; m+=1){
+                p = num * m;
+                System.out.print("\t");
+                System.out.print(p);
 
-        }
-        System.out.println();
+            }
+            System.out.println();
         }
 
 
